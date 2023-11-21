@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "dgSpecHash": "PMTdU/BGHYCLJxG2yj+BVcyTPHZsGkA9lIuI8dewGUQU0hjUszekPeL4bKzCWRsYyqAN0H95b8jMh3Mlh8w6rQ==",
+  "success": true,
+  "projectFilePath": "/private/tmp/abb/mvc-main/mvc.csproj",
+  "expectedPackageFiles": [
+    "/Users/iddo/.nuget/packages/newtonsoft.json/12.0.2/newtonsoft.json.12.0.2.nupkg.sha512",
+    "/Users/iddo/.nuget/packages/serilog/2.10.0/serilog.2.10.0.nupkg.sha512",
+    "/Users/iddo/.nuget/packages/trilog/7.8.5/trilog.7.8.5.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Newtonsoft.Json' 12.0.2 has a known high severity vulnerability, https://github.com/advisories/GHSA-5crp-9r3c-p9vr",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'TriLog 7.8.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "TriLog",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}
