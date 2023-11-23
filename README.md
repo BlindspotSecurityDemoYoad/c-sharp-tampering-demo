@@ -12,7 +12,7 @@ No need to clone the repo, just run the below docker commands which will downloa
 
 * Build
 ```sh
-docker build -t csharpdemo https://raw.githubusercontent.com/BlindspotSecurityDemoYoad/c-sharp-mvc-demo/main/Dockerfile
+docker build -t csharpdemo https://raw.githubusercontent.com/BlindspotSecurityDemoYoad/c-sharp-tampering-demo/main/Dockerfile
 ```
 
 * Run
